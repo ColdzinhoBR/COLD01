@@ -1,80 +1,28 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio João vitor</title>
-    <!-- Incluindo Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <!-- Estilo personalizado -->
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title>Formulário Responsivo</title>
+    <link rel="stylesheet" type="text/css" href="style.css"  /> 
 </head>
-<body>
-    
-<!-- Barra de Navegação -->
-<nav class="navbar navbar-expand-lg fixed-top">
+<body>              formulario de coldzinho ジョンズ
+    <br>
+    <br>
+    <br>
     <div class="container">
-        <a class="navbar-brand" href="#">Meu Portfólio</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#home">Página Inicial</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">Sobre</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contato</a>
-                </li>
-            </ul>
-        </div>
+        <h1>Formulário Responsivo  レスポンシブフォーム</h1>
+        <form>
+            <label for="nome">Nome/名前/name:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email/Eメール:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem/メッセージ/message:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+            <input type="submit" value="Enviar/送る/send">
+        </form>
     </div>
-</nav>
-
-<!-- Página Inicial -->
-<div id="home" class="jumbotron">
-    <h1>Bem-vindo ao Meu Portfólio</h1>
-    <br><br>
-    <p id = "paragrafo" >Este é um exemplo de um site de portfólio simples usando HTML, CSS e Bootstrap.</p>
-</div>
-
-<!-- Sobre -->
-<div id="about" class="section">
-    <div class="container">
-        <h2>Sobre Mim</h2>
-        <br><br>
-        <img src="joao.jpeg" alt="foto da autora do portfólio">
-        <br><br><br>
-        <p>ATUALMENTE estudante de web programaçao, formado no ensino medio ex-jovem aprendiz de limpeza
-            focado em programacao eu joao vitor oliveira, quero ser um grande profissional em programaçao em geral, desenvover sistemas complexos, fazer aplicativoos para mobile com entuito de facilitar a vida do usuario
-            predendo tambem ser dev de jogos, e facilitar a vida dos meus colegas e meu patrao
-</p>
-    </div>
-</div>
-
-<!-- Contato -->
-<div id="contact" class="section">
-    <div class="container">
-        <h2>Contato</h2>
-        <p>Você pode entrar em contato pelo meu email:coldzinhobr@gmail.com</p>
-    </div>
-</div>
-
-<!-- Rodapé -->
-<footer class="footer">
-    <div class="container">
-        <p id = "paragrafo1">&copy; 2023 Meu Portfólio</p>
-    </div>
-</footer>
-
-<!-- Scripts do Bootstrap -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
 </body>
 </html>

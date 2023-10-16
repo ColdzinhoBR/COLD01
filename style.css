@@ -1,52 +1,31 @@
-/*tag body*/
 body {
-    padding-top: 50px;
+    background-image:url(anime.jpg);
+    font-family: Arial, sans-serif;
+    background-color: #67b0eb;
 }
-
-.navbar {
-    background-color: #0d9bce;
-}
-
-.navbar-brand, .navbar-nav .nav-link {
-    color: #fff;
-}
-
-.jumbotron {
-    background-image: url('background.jpg');
-    color: #fff;
-    text-align: center;
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #27dd3c;
     padding: 100px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(216, 239, 8, 0.1);
 }
-
-.section {
-    padding: 50px 0;
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
 }
-.footer {
-    background-color: #0d9bce;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
 }
-/*tag h1*/
-h1{
-    color:rgb(233, 15, 15);
-}
-/*tag p*/
-p{
-    color:rgb(54, 185, 11);
-    text-align: justify;
-}
-#paragrafo{
-
-    text-align: center;
-
-}
-#paragrafo1{
-
-    text-align: center;
-}
-/*tag img*/
-img{
-    
-    width: 300px;
+input[type="submit"]:hover {
+    background-color: #32da3a;
 }
